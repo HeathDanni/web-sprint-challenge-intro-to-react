@@ -1,9 +1,10 @@
 // Write your Character component here
 import React from "react";
 
-const Character = () => {
+const Character = (props) => {
     return <div>
-        <span>does this work</span>
+        <h2>{props.name}</h2>
+        <span>{props.year}</span>
     </div>
 }
 
