@@ -29,12 +29,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  React is a library that allows the browser to change only what needs to be changed by use of a virtual DOM.  This way the page does not need to completely reload everytime info is added or changed, and this allows for components to be more easily created and developed seperately.  Not only does this make it easier for developers but creates a better experience for users.
 
 1. Describe component state.
+  When a component's state changes the virtual DOM will know that the component needs to be re-rendered.
 
 1. Describe props.
+  Props allows us to set properties to components with one keyword rather than having to list every property a component has when creating it or adding new properties.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  You can use side effect to tell React to do something when an effect happens.  In this application, we used to get the api data after the page finished loading, but only once by using [].  If we didn't do this, our axios request would be ran everytime the page
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
