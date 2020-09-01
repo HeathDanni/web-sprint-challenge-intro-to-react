@@ -3,8 +3,7 @@ import React from "react";
 
 const Character = (props) => {
     return <div>
-        <h2>{props.name}</h2>
-        <span>{props.year}</span>
+        <h2>{props.name}</h2><span>{props.year}</span>
     </div>
 }
 
